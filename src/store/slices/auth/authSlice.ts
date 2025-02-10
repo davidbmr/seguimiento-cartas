@@ -6,6 +6,8 @@ export interface AuthState {
 	login: {
 		access_token: string;
 		rol: Role;
+		names?: any;
+		last_names?: any;
 	} | null;
 }
 
