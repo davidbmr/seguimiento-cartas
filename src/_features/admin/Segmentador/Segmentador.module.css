@@ -1,0 +1,45 @@
+.segmentadorGroup__container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+.segmentadorGroup__container__productosFinancieros {
+	display: grid;
+	grid-template-columns: 1fr 1fr 130px;
+	gap: 10px;
+}
+
+.segmentadorGroup__container__entidadFinanciera {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+}
+
+.addButton__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--primary-color-app);
+	color: #fff;
+	border-radius: 20px;
+
+	gap: 10px;
+	cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+	.responsive__datatable {
+		width: 90vw;
+		overflow-x: auto;
+	}
+	.addButton__container {
+		width: 90vw;
+		padding: 15px;
+	}
+	.segmentadorGroup__container {
+		grid-template-columns: 1fr;
+	}
+	.segmentadorGroup__container__productosFinancieros {
+		grid-template-columns: 1fr;
+	}
+}

@@ -1,0 +1,48 @@
+.perfilContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .perfilCard, .empresaCard, .certificacionesCard, .redesCard {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .fotoPerfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+  }
+  
+  .logoEmpresa {
+    width: 100px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    margin-right: 8px;
+    color: #007bff;
+  }
+  
+  .redesLinks a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #007bff;
+    transition: 0.3s;
+  }
+  
+  .redesLinks a:hover {
+    color: #0056b3;
+  }
+  

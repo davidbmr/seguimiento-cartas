@@ -1,0 +1,11 @@
+.body {
+	position: absolute;
+	top: 45vh;
+	right: 85vh;
+}
+.body > p {
+	position: absolute;
+	padding-top: 15px;
+	color: gray;
+    right: 15px
+}

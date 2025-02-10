@@ -1,0 +1,54 @@
+.seguimientoServicio__container {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.perfilContadora__clientes__container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.perfilContadora__label {
+	width: 200px;
+	font-weight: 600;
+}
+.container {
+	display: flex;
+	gap: 2vw;
+
+	padding: 30px 10px;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.perfilContadora__cliente__field {
+	width: 36vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		padding: 5px;
+		flex-wrap: wrap;
+		gap: 1e;
+	}
+	.perfilContadora__cliente__field {
+		width: 36vw;
+		display: flex;
+		gap: 20px;
+
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.responsive__datatable {
+		width: 90vw;
+		overflow-x: auto;
+	}
+	.content__box {
+		width: 90vw;
+	}
+}

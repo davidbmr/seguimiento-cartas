@@ -1,0 +1,14 @@
+.inputs {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 10px;
+	gap: 10px;
+}
+@media screen and (max-width: 768px) {
+	.inputs {
+		grid-template-columns: 1fr;
+	}
+	.buttons {
+		width: 50vw;
+	}
+}
